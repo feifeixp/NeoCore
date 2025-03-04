@@ -1,0 +1,20 @@
+event:
+  axes: []
+faction:
+  axes: []
+geo:
+  axes: []
+metadata:
+  creation_time: '2025-03-04T08:21:29Z'
+  protocol_name: TDP
+  universe_id: TDP-3210ddd9-2025
+  version_hash: 3210ddd9
+rules:
+  cross_era_interaction: true
+  entropy_constraint: 0.78
+  isolation_mechanism: []
+tech:
+  axes: []
+validation:
+  checksum: 3223195a
+  last_modified: '2025-03-04T08:21:29Z'

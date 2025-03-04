@@ -1,0 +1,73 @@
+event:
+  axes:
+  - era_tags: &id001
+    - ancient
+    - modern
+    - future
+    name: 时间扰动
+    options:
+    - 天劫降临（上古）
+    - 金融危机（当代）
+    - 智械觉醒（未来）
+    weights:
+    - 0.3
+    - 0.4
+    - 0.3
+faction:
+  axes:
+  - era_tags: *id001
+    name: 权力架构
+    options:
+    - 修仙门派（上古）
+    - 民族国家（当代）
+    - 巨型企业联合体（未来）
+    weights:
+    - 0.3
+    - 0.4
+    - 0.3
+geo:
+  axes:
+  - era_tags: *id001
+    name: 大陆形态
+    options:
+    - 灵脉浮岛（上古）
+    - 现代都市（当代）
+    - 太空殖民地（未来）
+    weights:
+    - 0.3
+    - 0.4
+    - 0.3
+  - era_tags: *id001
+    name: 能量类型
+    options:
+    - 天地灵气（上古）
+    - 化石能源（当代）
+    - 反物质反应堆（未来）
+    weights:
+    - 0.3
+    - 0.4
+    - 0.3
+metadata:
+  creation_time: '2025-03-04T06:35:54Z'
+  protocol_name: TDP
+  universe_id: TDP-723fb01d-2025
+  version_hash: 723fb01d
+rules:
+  cross_era_interaction: true
+  entropy_constraint: 0.78
+  isolation_mechanism: []
+tech:
+  axes:
+  - era_tags: *id001
+    name: 能量应用
+    options:
+    - 炼丹炼器（上古）
+    - 内燃机（当代）
+    - 量子脑机接口（未来）
+    weights:
+    - 0.3
+    - 0.4
+    - 0.3
+validation:
+  checksum: 69f3486f
+  last_modified: '2025-03-04T06:35:54Z'

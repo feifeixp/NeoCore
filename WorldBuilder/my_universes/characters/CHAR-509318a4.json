@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "id": "CHAR-509318a4",
+    "world_id": "TDP-8e8bbdea-2025",
+    "name": "刘强",
+    "birth_datetime": "1990-01-01T00:00:00",
+    "gender": "male",
+    "era": "ancient",
+    "created_at": "2025-03-04T08:29:03.796042"
+  },
+  "attributes": {
+    "strength": 72,
+    "intelligence": 97,
+    "charisma": 57
+  },
+  "skills": [
+    "丹道修炼",
+    "道法自然",
+    "符箓之术"
+  ]
+}

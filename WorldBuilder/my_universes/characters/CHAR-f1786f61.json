@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "id": "CHAR-f1786f61",
+    "world_id": "TDP-8da5dd1b-2025",
+    "name": "王力",
+    "birth_datetime": "1990-01-01T00:00:00",
+    "gender": "male",
+    "era": "ancient",
+    "created_at": "2025-03-04T08:30:36.148852"
+  },
+  "attributes": {
+    "strength": 70,
+    "intelligence": 66,
+    "charisma": 88
+  },
+  "skills": [
+    "符箓之术",
+    "丹道修炼",
+    "天地灵气"
+  ]
+}

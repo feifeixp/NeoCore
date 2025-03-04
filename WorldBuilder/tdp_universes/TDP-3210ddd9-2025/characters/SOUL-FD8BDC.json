@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "protocol": "DestinyFlow",
+    "version": "3.0",
+    "soul_id": "SOUL-FD8BDC",
+    "universe_id": "TDP-3210ddd9-2025",
+    "name": "周燕"
+  },
+  "basic": {
+    "birth_datetime": "2000-08-23 15:45",
+    "gender": "female",
+    "era": "modern"
+  },
+  "destiny_chart": {
+    "pillars": [
+      "甲申",
+      "壬申",
+      "丁亥",
+      "己卯"
+    ],
+    "nayin_elements": {
+      "金": 0.48888888888888893,
+      "木": 0.17777777777777778,
+      "水": 0.3333333333333333,
+      "火": 0.0,
+      "土": 0.0
+    },
+    "era_modified_elements": {
+      "金": 0.5866666666666667,
+      "木": 0.17777777777777778,
+      "水": 0.3333333333333333,
+      "火": 0.0,
+      "土": 0.0
+    },
+    "gods": [
+      "偏印",
+      "七杀",
+      "比肩",
+      "伤官"
+    ],
+    "era_gods": [
+      "偏印",
+      "竞争对手",
+      "比肩",
+      "发明创造"
+    ],
+    "shensha": [
+      [
+        "文昌",
+        2
+      ]
+    ]
+  },
+  "calculations": {
+    "potential": 0.38016473551387636,
+    "compatibility": 0.7896226526299661,
+    "era_conflict": 0.21853829739556302
+  },
+  "abilities": {
+    "main": "金融分析师",
+    "special": [
+      "创新思维能力"
+    ],
+    "values": {
+      "attack": 41.1,
+      "defense": 17.6,
+      "intelligence": 34.3
+    }
+  },
+  "life_events": [
+    {
+      "age": 10,
+      "description": "体育比赛",
+      "impact": "启蒙",
+      "era_specific": "在校际比赛中取得突出成绩"
+    },
+    {
+      "age": 21,
+      "description": "技术创新",
+      "impact": "成长",
+      "era_specific": "研发新技术，获得专利或行业认可"
+    },
+    {
+      "age": 30,
+      "description": "职业危机",
+      "impact": "转折",
+      "era_specific": "面临行业变革或公司重组"
+    },
+    {
+      "age": 55,
+      "description": "学术重大突破",
+      "impact": "关键",
+      "era_specific": "在研究领域取得突破性进展"
+    }
+  ]
+}

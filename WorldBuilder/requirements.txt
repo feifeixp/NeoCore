@@ -1,0 +1,12 @@
+# Core dependencies
+numpy>=2.2.0  # 用于数值计算和随机数生成
+pyyaml>=6.0.0  # 用于YAML文件处理
+
+# Optional but recommended
+python-dateutil>=2.8.0  # 用于日期时间处理
+tabulate>=0.9.0  # 用于表格输出格式化
+
+# Development dependencies
+black>=23.0.0  # 代码格式化
+pytest>=7.0.0  # 单元测试
+mypy>=1.0.0   # 类型检查 

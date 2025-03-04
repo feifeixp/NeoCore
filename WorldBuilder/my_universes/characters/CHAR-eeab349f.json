@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "id": "CHAR-eeab349f",
+    "world_id": "TDP-e2fcc6e2-2025",
+    "name": "张秀",
+    "birth_datetime": "1995-04-08T02:00:00",
+    "gender": "female",
+    "era": "modern",
+    "created_at": "2025-03-04T08:29:03.797180"
+  },
+  "attributes": {
+    "strength": 84,
+    "intelligence": 81,
+    "charisma": 51
+  },
+  "skills": [
+    "项目管理",
+    "资源整合",
+    "数据分析"
+  ]
+}

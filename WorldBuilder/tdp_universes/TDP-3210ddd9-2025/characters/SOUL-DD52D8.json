@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "protocol": "DestinyFlow",
+    "version": "3.0",
+    "soul_id": "SOUL-DD52D8",
+    "universe_id": "TDP-3210ddd9-2025",
+    "name": "量子灵"
+  },
+  "basic": {
+    "birth_datetime": "2005-12-10 03:15",
+    "gender": "male",
+    "era": "future"
+  },
+  "destiny_chart": {
+    "pillars": [
+      "己丑",
+      "丙子",
+      "甲戌",
+      "丁卯"
+    ],
+    "nayin_elements": {
+      "金": 0.0,
+      "木": 0.17777777777777778,
+      "水": 0.26666666666666666,
+      "火": 0.0,
+      "土": 0.5555555555555556
+    },
+    "era_modified_elements": {
+      "金": 0.0,
+      "木": 0.14222222222222222,
+      "水": 0.5333333333333333,
+      "火": 0.0,
+      "土": 0.4444444444444445
+    },
+    "gods": [
+      "正财",
+      "食神",
+      "比肩",
+      "伤官"
+    ],
+    "era_gods": [
+      "正财",
+      "食神",
+      "比肩",
+      "算法突破"
+    ],
+    "shensha": [
+      [
+        "文昌",
+        2
+      ],
+      [
+        "文昌",
+        1
+      ],
+      [
+        "羊刃",
+        3
+      ]
+    ]
+  },
+  "calculations": {
+    "potential": 0.25627527175713655,
+    "compatibility": 0.5941411609924792,
+    "era_conflict": 0.23646453943846615
+  },
+  "abilities": {
+    "main": "数据心理学家",
+    "special": [
+      "算法优化直觉",
+      "算法优化直觉",
+      "破解系统能力"
+    ],
+    "values": {
+      "attack": 0.0,
+      "defense": 33.6,
+      "intelligence": 78.4
+    }
+  },
+  "life_events": [
+    {
+      "age": 13,
+      "description": "基因优化",
+      "impact": "启蒙",
+      "era_specific": "接受基因优化手术，激活潜在能力"
+    },
+    {
+      "age": 23,
+      "description": "数据矿藏发现",
+      "impact": "成长",
+      "era_specific": "在数据海洋中发现有价值的信息矿藏"
+    },
+    {
+      "age": 26,
+      "description": "时间悖论",
+      "impact": "转折",
+      "era_specific": "卷入时间悖论事件，改变历史线"
+    },
+    {
+      "age": 52,
+      "description": "量子记忆扩展",
+      "impact": "关键",
+      "era_specific": "成功扩展自身量子记忆存储能力"
+    }
+  ]
+}

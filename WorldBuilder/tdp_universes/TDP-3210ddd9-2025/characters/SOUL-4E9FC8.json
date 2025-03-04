@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "protocol": "DestinyFlow",
+    "version": "3.0",
+    "soul_id": "SOUL-4E9FC8",
+    "universe_id": "TDP-3210ddd9-2025",
+    "name": "杨云"
+  },
+  "basic": {
+    "birth_datetime": "1998-04-15 07:30",
+    "gender": "male",
+    "era": "ancient"
+  },
+  "destiny_chart": {
+    "pillars": [
+      "壬午",
+      "戊辰",
+      "己卯",
+      "辛未"
+    ],
+    "nayin_elements": {
+      "金": 0.0,
+      "木": 0.3333333333333333,
+      "水": 0.0,
+      "火": 0.2222222222222222,
+      "土": 0.4444444444444444
+    },
+    "era_modified_elements": {
+      "金": 0.0,
+      "木": 0.5,
+      "水": 0.0,
+      "火": 0.3333333333333333,
+      "土": 0.4444444444444444
+    },
+    "gods": [
+      "偏财",
+      "劫财",
+      "比肩",
+      "伤官"
+    ],
+    "era_gods": [
+      "奇珍异宝",
+      "劫财",
+      "比肩",
+      "丹道宗师"
+    ],
+    "shensha": [
+      [
+        "文昌",
+        1
+      ],
+      [
+        "文昌",
+        0
+      ],
+      [
+        "文昌",
+        3
+      ],
+      [
+        "文昌",
+        2
+      ],
+      [
+        "羊刃",
+        1
+      ]
+    ]
+  },
+  "calculations": {
+    "potential": 0.3742655883083865,
+    "compatibility": 0.8309111578903283,
+    "era_conflict": 0.11005551117576441
+  },
+  "abilities": {
+    "main": "药师",
+    "special": [
+      "过目不忘的记忆力",
+      "过目不忘的记忆力",
+      "过目不忘的记忆力",
+      "过目不忘的记忆力",
+      "战斗时爆发性增强"
+    ],
+    "values": {
+      "attack": 19.5,
+      "defense": 22.4,
+      "intelligence": 61.9
+    }
+  },
+  "life_events": [
+    {
+      "age": 12,
+      "description": "拜师学艺",
+      "impact": "启蒙",
+      "era_specific": "得到宗门长老看重，收为入室弟子"
+    },
+    {
+      "age": 21,
+      "description": "悟道顿悟",
+      "impact": "成长",
+      "era_specific": "修炼中突破瓶颈，领悟道法奥义"
+    },
+    {
+      "age": 30,
+      "description": "大劫难",
+      "impact": "转折",
+      "era_specific": "面临修真界大劫，需做出重要抉择"
+    },
+    {
+      "age": 47,
+      "description": "得到上古秘籍",
+      "impact": "关键",
+      "era_specific": "获得记载失传功法的上古秘籍"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+# 三纪元世界与角色系统的文件结构
+
+tdp_universes/                             # 根目录，存储所有世界
+│
+├── TDP-7d4a2f9e-2025/                    # 世界1目录，使用唯一ID命名
+│   ├── world_metadata.yaml               # 世界元数据（完整配置）
+│   ├── world_description.txt             # 世界描述文件
+│   └── characters/                       # 世界1中的角色目录
+│       ├── SOUL-7B3D9A.json              # 角色1数据
+│       ├── SOUL-7B3D9A_description.txt   # 角色1描述
+│       ├── 李青云.json                    # 角色名称链接（指向实际角色数据）
+│       ├── SOUL-2A94F1.json              # 角色2数据
+│       ├── SOUL-2A94F1_description.txt   # 角色2描述
+│       ├── 王明.json                      # 角色名称链接
+│       └── ...                           # 更多角色
+│
+├── TDP-89b3c1a-2025/                     # 世界2目录
+│   ├── world_metadata.yaml
+│   ├── world_description.txt
+│   └── characters/
+│       ├── SOUL-F1A3B5.json
+│       ├── SOUL-F1A3B5_description.txt
+│       └── ...
+│
+└── ...                                   # 更多世界

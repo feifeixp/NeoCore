@@ -1,0 +1,13 @@
+{
+  "id": "TDP-8da5dd1b-2025",
+  "created_at": "2025-03-04T08:30:36.148514",
+  "characters": [
+    "CHAR-f1786f61",
+    "CHAR-5fe859f5"
+  ],
+  "entropy": 0.0,
+  "validation": {
+    "checksum": "90a964c42d71433d99073888ed3477d8",
+    "last_modified": "2025-03-04T08:30:36.148518"
+  }
+}

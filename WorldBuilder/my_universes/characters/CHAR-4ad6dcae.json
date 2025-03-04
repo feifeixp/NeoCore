@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "id": "CHAR-4ad6dcae",
+    "world_id": "TDP-75ff28e5-2025",
+    "name": "赵琴",
+    "birth_datetime": "1995-04-08T02:00:00",
+    "gender": "female",
+    "era": "modern",
+    "created_at": "2025-03-04T08:29:03.798127"
+  },
+  "attributes": {
+    "strength": 66,
+    "intelligence": 56,
+    "charisma": 86
+  },
+  "skills": [
+    "项目管理",
+    "数据分析",
+    "资源整合"
+  ]
+}

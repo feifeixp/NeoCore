@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "id": "CHAR-a74c6da4",
+    "world_id": "TDP-a7612c3c-2025",
+    "name": "李青云",
+    "birth_datetime": "1995-03-12T05:30:00",
+    "gender": "male",
+    "era": "ancient",
+    "created_at": "2025-03-04T08:29:03.793984"
+  },
+  "attributes": {
+    "strength": 88,
+    "intelligence": 63,
+    "charisma": 58
+  },
+  "skills": [
+    "丹道修炼",
+    "道法自然",
+    "符箓之术"
+  ]
+}

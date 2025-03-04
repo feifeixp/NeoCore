@@ -1,0 +1,85 @@
+dimensions:
+  event: []
+  faction:
+  - axis: 权力架构
+    value: !!python/object/apply:numpy._core.multiarray.scalar
+    - !!python/object/apply:numpy.dtype
+      args:
+      - U11
+      - false
+      - true
+      state: !!python/tuple
+      - 3
+      - <
+      - null
+      - null
+      - null
+      - 44
+      - 4
+      - 8
+    - !!binary |
+      6F0AAItXAAABTwAAGk4AAFSAAAAIVAAAU08AAAj/AAAqZwAAZWcAAAn/AAA=
+  geo:
+  - axis: 大陆形态
+    value: !!python/object/apply:numpy._core.multiarray.scalar
+    - !!python/object/apply:numpy.dtype
+      args:
+      - U8
+      - false
+      - true
+      state: !!python/tuple
+      - 3
+      - <
+      - null
+      - null
+      - null
+      - 32
+      - 4
+      - 8
+    - !!binary |
+      dXAAAAmBAABubQAAm1wAAAj/AAAKTgAA5FMAAAn/AAA=
+  - axis: 能量类型
+    value: !!python/object/apply:numpy._core.multiarray.scalar
+    - !!python/object/apply:numpy.dtype
+      args:
+      - U8
+      - false
+      - true
+      state: !!python/tuple
+      - 3
+      - <
+      - null
+      - null
+      - null
+      - 32
+      - 4
+      - 8
+    - !!binary |
+      KVkAADBXAAB1cAAAFGwAAAj/AAAKTgAA5FMAAAn/AAA=
+  tech:
+  - axis: 能量应用
+    value: !!python/object/apply:numpy._core.multiarray.scalar
+    - !!python/object/apply:numpy.dtype
+      args:
+      - U10
+      - false
+      - true
+      state: !!python/tuple
+      - 3
+      - <
+      - null
+      - null
+      - null
+      - 40
+      - 4
+      - 8
+    - !!binary |
+      z5EAAFBbAAARgQAAOmcAAKVjAADjUwAACP8AACpnAABlZwAACf8AAA==
+metadata:
+  created_at: '2025-03-04T08:29:08.277008'
+  entropy: 0.0
+  protocol_version: '1.1'
+  universe_id: TDP-e47b2029-2025
+rules:
+  cross_era_interaction: true
+  entropy_constraint: 0.78

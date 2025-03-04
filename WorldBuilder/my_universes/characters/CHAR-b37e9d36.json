@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "id": "CHAR-b37e9d36",
+    "world_id": "TDP-b9d9a9ad-2025",
+    "name": "李青云",
+    "birth_datetime": "1995-03-12T05:30:00",
+    "gender": "male",
+    "era": "ancient",
+    "created_at": "2025-03-04T10:38:41.804896"
+  },
+  "attributes": {
+    "strength": 94,
+    "intelligence": 69,
+    "charisma": 88
+  },
+  "skills": [
+    "五行相生",
+    "符箓之术",
+    "天地灵气"
+  ]
+}

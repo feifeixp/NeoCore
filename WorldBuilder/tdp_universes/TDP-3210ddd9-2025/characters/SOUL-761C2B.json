@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "protocol": "DestinyFlow",
+    "version": "3.0",
+    "soul_id": "SOUL-761C2B",
+    "universe_id": "TDP-3210ddd9-2025",
+    "name": "星璇·艾"
+  },
+  "basic": {
+    "birth_datetime": "2010-05-20 12:00",
+    "gender": "female",
+    "era": "future"
+  },
+  "destiny_chart": {
+    "pillars": [
+      "甲午",
+      "己巳",
+      "甲申",
+      "丙子"
+    ],
+    "nayin_elements": {
+      "金": 0.3333333333333333,
+      "木": 0.0,
+      "水": 0.17777777777777778,
+      "火": 0.48888888888888893,
+      "土": 0.0
+    },
+    "era_modified_elements": {
+      "金": 0.6666666666666666,
+      "木": 0.0,
+      "水": 0.35555555555555557,
+      "火": 0.48888888888888893,
+      "土": 0.0
+    },
+    "gods": [
+      "比肩",
+      "正财",
+      "比肩",
+      "食神"
+    ],
+    "era_gods": [
+      "比肩",
+      "正财",
+      "比肩",
+      "食神"
+    ],
+    "shensha": [
+      [
+        "文昌",
+        1
+      ]
+    ]
+  },
+  "calculations": {
+    "potential": 0.4338788768016196,
+    "compatibility": 0.8701439488012586,
+    "era_conflict": 0.3369997869998642
+  },
+  "abilities": {
+    "main": "量子计算专家",
+    "special": [
+      "算法优化直觉"
+    ],
+    "values": {
+      "attack": 49.1,
+      "defense": 24.0,
+      "intelligence": 53.7
+    }
+  },
+  "life_events": [
+    {
+      "age": 15,
+      "description": "AI导师匹配",
+      "impact": "启蒙",
+      "era_specific": "与具有独特算法的AI导师匹配成功"
+    },
+    {
+      "age": 22,
+      "description": "意识突破",
+      "impact": "成长",
+      "era_specific": "意识层次突破，获得新的认知能力"
+    },
+    {
+      "age": 30,
+      "description": "次元穿越",
+      "impact": "转折",
+      "era_specific": "意外穿越到平行宇宙或不同纪元"
+    },
+    {
+      "age": 42,
+      "description": "量子记忆扩展",
+      "impact": "关键",
+      "era_specific": "成功扩展自身量子记忆存储能力"
+    }
+  ]
+}

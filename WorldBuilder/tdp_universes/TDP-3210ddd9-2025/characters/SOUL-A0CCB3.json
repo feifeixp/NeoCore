@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "protocol": "DestinyFlow",
+    "version": "3.0",
+    "soul_id": "SOUL-A0CCB3",
+    "universe_id": "TDP-3210ddd9-2025",
+    "name": "星璇·艾"
+  },
+  "basic": {
+    "birth_datetime": "2010-05-20 12:00",
+    "gender": "female",
+    "era": "future"
+  },
+  "destiny_chart": {
+    "pillars": [
+      "甲午",
+      "己巳",
+      "甲申",
+      "丙子"
+    ],
+    "nayin_elements": {
+      "金": 0.3333333333333333,
+      "木": 0.0,
+      "水": 0.17777777777777778,
+      "火": 0.48888888888888893,
+      "土": 0.0
+    },
+    "era_modified_elements": {
+      "金": 0.6666666666666666,
+      "木": 0.0,
+      "水": 0.35555555555555557,
+      "火": 0.48888888888888893,
+      "土": 0.0
+    },
+    "gods": [
+      "比肩",
+      "正财",
+      "比肩",
+      "食神"
+    ],
+    "era_gods": [
+      "比肩",
+      "正财",
+      "比肩",
+      "食神"
+    ],
+    "shensha": [
+      [
+        "文昌",
+        1
+      ]
+    ]
+  },
+  "calculations": {
+    "potential": 0.47624546818456165,
+    "compatibility": 0.8247589909681872,
+    "era_conflict": 0.15452925863652076
+  },
+  "abilities": {
+    "main": "量子计算专家",
+    "special": [
+      "算法优化直觉"
+    ],
+    "values": {
+      "attack": 49.1,
+      "defense": 24.0,
+      "intelligence": 53.7
+    }
+  },
+  "life_events": [
+    {
+      "age": 11,
+      "description": "神经接口初始化",
+      "impact": "启蒙",
+      "era_specific": "首次接入量子神经网络，展现出非凡适配性"
+    },
+    {
+      "age": 17,
+      "description": "数据矿藏发现",
+      "impact": "成长",
+      "era_specific": "在数据海洋中发现有价值的信息矿藏"
+    },
+    {
+      "age": 36,
+      "description": "意识分裂",
+      "impact": "转折",
+      "era_specific": "经历意识分裂，形成多重自我"
+    },
+    {
+      "age": 45,
+      "description": "量子记忆扩展",
+      "impact": "关键",
+      "era_specific": "成功扩展自身量子记忆存储能力"
+    }
+  ]
+}

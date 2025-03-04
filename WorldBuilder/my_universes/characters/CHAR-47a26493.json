@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "id": "CHAR-47a26493",
+    "world_id": "TDP-b4d53274-2025",
+    "name": "李芳",
+    "birth_datetime": "2000-08-23T15:45:00",
+    "gender": "female",
+    "era": "modern",
+    "created_at": "2025-03-04T08:28:00.832411"
+  },
+  "attributes": {
+    "strength": 53,
+    "intelligence": 69,
+    "charisma": 51
+  },
+  "skills": [
+    "数据分析",
+    "战略规划",
+    "资源整合"
+  ]
+}

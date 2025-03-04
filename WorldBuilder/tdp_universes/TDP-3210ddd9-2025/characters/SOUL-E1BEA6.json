@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "protocol": "DestinyFlow",
+    "version": "3.0",
+    "soul_id": "SOUL-E1BEA6",
+    "universe_id": "TDP-3210ddd9-2025",
+    "name": "微流"
+  },
+  "basic": {
+    "birth_datetime": "2005-12-10 03:15",
+    "gender": "male",
+    "era": "future"
+  },
+  "destiny_chart": {
+    "pillars": [
+      "己丑",
+      "丙子",
+      "甲戌",
+      "丁卯"
+    ],
+    "nayin_elements": {
+      "金": 0.0,
+      "木": 0.17777777777777778,
+      "水": 0.26666666666666666,
+      "火": 0.0,
+      "土": 0.5555555555555556
+    },
+    "era_modified_elements": {
+      "金": 0.0,
+      "木": 0.14222222222222222,
+      "水": 0.5333333333333333,
+      "火": 0.0,
+      "土": 0.4444444444444445
+    },
+    "gods": [
+      "正财",
+      "食神",
+      "比肩",
+      "伤官"
+    ],
+    "era_gods": [
+      "正财",
+      "食神",
+      "比肩",
+      "算法突破"
+    ],
+    "shensha": [
+      [
+        "文昌",
+        2
+      ],
+      [
+        "文昌",
+        1
+      ],
+      [
+        "羊刃",
+        3
+      ]
+    ]
+  },
+  "calculations": {
+    "potential": 0.3215901188839256,
+    "compatibility": 0.6646302096958653,
+    "era_conflict": 0.10223985239754829
+  },
+  "abilities": {
+    "main": "数据心理学家",
+    "special": [
+      "算法优化直觉",
+      "算法优化直觉",
+      "破解系统能力"
+    ],
+    "values": {
+      "attack": 0.0,
+      "defense": 33.6,
+      "intelligence": 78.4
+    }
+  },
+  "life_events": [
+    {
+      "age": 15,
+      "description": "量子感知觉醒",
+      "impact": "启蒙",
+      "era_specific": "突然获得感知量子波动的能力"
+    },
+    {
+      "age": 20,
+      "description": "意识突破",
+      "impact": "成长",
+      "era_specific": "意识层次突破，获得新的认知能力"
+    },
+    {
+      "age": 37,
+      "description": "次元穿越",
+      "impact": "转折",
+      "era_specific": "意外穿越到平行宇宙或不同纪元"
+    },
+    {
+      "age": 38,
+      "description": "系统崩溃危机",
+      "impact": "关键",
+      "era_specific": "面临全球系统崩溃的紧急危机"
+    }
+  ]
+}

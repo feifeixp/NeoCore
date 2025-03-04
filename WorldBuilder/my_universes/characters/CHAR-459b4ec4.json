@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "id": "CHAR-459b4ec4",
+    "world_id": "TDP-a7612c3c-2025",
+    "name": "李强",
+    "birth_datetime": "2005-12-10T03:15:00",
+    "gender": "male",
+    "era": "future",
+    "created_at": "2025-03-04T08:29:03.794957"
+  },
+  "attributes": {
+    "strength": 79,
+    "intelligence": 63,
+    "charisma": 85
+  },
+  "skills": [
+    "时空跃迁",
+    "基因编程",
+    "意识上传"
+  ]
+}
