@@ -1,0 +1,60 @@
+{
+  "basic": {
+    "name": "费琴华",
+    "gender": "female",
+    "era": "modern",
+    "birth_datetime": "1927-06-11T21:09"
+  },
+  "physical": {
+    "height": 163,
+    "weight": 62,
+    "blood_type": "A",
+    "face_shape": "鹅蛋脸",
+    "eye_color": "棕色"
+  },
+  "personality": {
+    "main_traits": [
+      "理性",
+      "感性",
+      "温和"
+    ],
+    "minor_traits": [
+      "实用主义",
+      "现实主义"
+    ]
+  },
+  "skills": {
+    "main": [
+      "商业管理",
+      "计算机编程",
+      "项目管理"
+    ],
+    "special": []
+  },
+  "special_abilities": [
+    {
+      "name": "计算机精通",
+      "level": 1,
+      "description": "精通各种编程语言和系统架构。"
+    },
+    {
+      "name": "商业头脑",
+      "level": 4,
+      "description": "具有敏锐的商业洞察力和决策能力。"
+    },
+    {
+      "name": "社交能力",
+      "level": 8,
+      "description": "善于处理人际关系，建立有效的社交网络。"
+    }
+  ],
+  "metadata": {
+    "id": "f981911d-95fd-473f-93f1-3f97095593d2",
+    "name": "费琴华",
+    "gender": "female",
+    "era": "modern",
+    "world_id": "TDP-3e2d78ed-2025",
+    "birth_datetime": "1927-06-11T21:09:00",
+    "created_at": "2025-03-05T22:10:21.153293"
+  }
+}

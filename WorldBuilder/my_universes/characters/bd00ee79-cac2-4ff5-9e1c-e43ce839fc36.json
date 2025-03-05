@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "id": "bd00ee79-cac2-4ff5-9e1c-e43ce839fc36",
+    "name": "林宇",
+    "creation_date": "2025-03-04T22:36:59.435256"
+  },
+  "basic": {
+    "gender": "male",
+    "era": "modern",
+    "birth_datetime": "1988-04-15T06:22:00"
+  },
+  "bazi": {
+    "year_pillar": null,
+    "month_pillar": null,
+    "day_pillar": null,
+    "hour_pillar": null,
+    "day_master": null,
+    "pattern": null
+  },
+  "analysis": {
+    "elements_distribution": {},
+    "world_influence": {},
+    "faction_compatibility": {},
+    "future_events": []
+  }
+}

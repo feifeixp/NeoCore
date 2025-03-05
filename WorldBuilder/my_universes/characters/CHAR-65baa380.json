@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "id": "CHAR-65baa380",
+    "name": "张智海",
+    "gender": "male",
+    "era": "ancient",
+    "birth_datetime": "1911-11-08T01:10:00",
+    "physical": {
+      "height": 181,
+      "weight": 58,
+      "blood_type": "O",
+      "face_shape": "菱形",
+      "eye_color": "蓝色"
+    },
+    "personality": {
+      "main_traits": [
+        "悲观",
+        "开朗",
+        "正直"
+      ],
+      "minor_traits": [
+        "完美主义",
+        "拖延症"
+      ]
+    }
+  },
+  "attributes": {
+    "strength": 69,
+    "intelligence": 91,
+    "charisma": 79,
+    "agility": 67,
+    "perception": 91
+  },
+  "skills": {
+    "main": [
+      "炼器技艺",
+      "阵法布置",
+      "医术精通"
+    ],
+    "special": [
+      {
+        "name": "内功心法",
+        "level": 3,
+        "description": "运用内力增强体魄，提升战斗力。"
+      }
+    ]
+  },
+  "background": {
+    "origin": "出身书香门第，精通诗书",
+    "details": "自幼展现出惊人的天赋，被视为修炼奇才",
+    "important_events": [
+      {
+        "year": 2010,
+        "age": 5,
+        "title": "习得绝世武功",
+        "significance": 3
+      },
+      {
+        "year": 2017,
+        "age": 12,
+        "title": "习得绝世武功",
+        "significance": 1
+      },
+      {
+        "year": 2024,
+        "age": 19,
+        "title": "习得绝世武功",
+        "significance": 4
+      }
+    ]
+  }
+}

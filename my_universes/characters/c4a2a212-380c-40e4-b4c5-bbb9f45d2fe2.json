@@ -1,0 +1,60 @@
+{
+  "basic": {
+    "name": "费元华",
+    "gender": "male",
+    "era": "ancient",
+    "birth_datetime": "1982-12-03T12:00"
+  },
+  "physical": {
+    "height": 182,
+    "weight": 84,
+    "blood_type": "A",
+    "face_shape": "鹅蛋脸",
+    "eye_color": "棕色"
+  },
+  "personality": {
+    "main_traits": [
+      "理性",
+      "灵活",
+      "圆滑"
+    ],
+    "minor_traits": [
+      "现实主义",
+      "拖延症"
+    ]
+  },
+  "skills": {
+    "main": [
+      "阵法布置",
+      "内功心法",
+      "符箓制作"
+    ],
+    "special": []
+  },
+  "special_abilities": [
+    {
+      "name": "内功心法",
+      "level": 4,
+      "description": "运用内力增强体魄，提升战斗力。"
+    },
+    {
+      "name": "剑术精通",
+      "level": 2,
+      "description": "精通各种剑法，能够应对各种战斗情况。"
+    },
+    {
+      "name": "丹道修炼",
+      "level": 6,
+      "description": "能够炼制各种丹药，提升修为。"
+    }
+  ],
+  "metadata": {
+    "id": "c4a2a212-380c-40e4-b4c5-bbb9f45d2fe2",
+    "name": "费元华",
+    "gender": "male",
+    "era": "ancient",
+    "world_id": "TDP-45fc9090-2025",
+    "birth_datetime": "1982-12-03T12:00:00",
+    "created_at": "2025-03-05T23:56:54.942955"
+  }
+}

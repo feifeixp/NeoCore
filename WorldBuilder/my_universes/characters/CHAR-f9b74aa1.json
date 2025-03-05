@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "id": "CHAR-f9b74aa1",
+    "world_id": "TDP-7c84f256-2025",
+    "name": "紫圣女",
+    "birth_datetime": "1990-01-01T00:00:00",
+    "gender": "male",
+    "era": "ancient",
+    "created_at": "2025-03-04T20:09:38.414762"
+  },
+  "attributes": {
+    "strength": 61,
+    "intelligence": 88,
+    "charisma": 84
+  },
+  "skills": [
+    "丹道修炼",
+    "天地灵气",
+    "道法自然"
+  ]
+}

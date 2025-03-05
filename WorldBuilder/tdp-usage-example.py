@@ -25,13 +25,14 @@ def basic_example():
     
     # 现代纪元角色
     print("\n创建现代纪元角色...")
-    modern_id, modern_data = manager.create_character(
-        world_id=world_id,
-        birth_datetime=datetime(2000, 8, 23, 15, 45),
+    char_id, char_data = manager.create_character(
+        world_id="TDP-25521c91-2025",  # 使用已有的世界ID
+        birth_datetime=datetime(2000, 8, 15, 14, 30),
         gender="female",
-        era="modern"
+        era="modern",  # 现代纪元
+        character_name="陈博士"  # 或者不指定，让系统自动生成名字
     )
-    print(f"角色创建成功: {modern_data['metadata']['name']} (ID: {modern_id})")
+    print(f"角色创建成功: {char_data['metadata']['name']} (ID: {char_id})")
     
     # 未来纪元角色
     print("\n创建未来纪元角色...")
@@ -61,7 +62,7 @@ def basic_example():
     print(f"\n角色描述示例 ({ancient_data['metadata']['name']}):")
     print(char_desc[:300] + "...")  # 只显示前300字符
     
-    return world_id, [ancient_id, modern_id, future_id]
+    return world_id, [ancient_id, char_id, future_id]
 
 
 def advanced_example():
@@ -175,26 +176,24 @@ def custom_world_example():
     # 创建角色
     char_gen = CharacterDNAGenerator(world_id)
     char_data = char_gen.generate_character(
-        birth_datetime=datetime(980, 6, 15, 3, 30),
-        gender="male",
         era="ancient",
         character_name="玄天真人"
     )
     
     # 保存角色数据
     import json
-    with open(f"{world_dir}/characters/{char_data['metadata']['soul_id']}.json", "w", encoding="utf-8") as f:
+    with open(f"{world_dir}/characters/{char_data['metadata']['id']}.json", "w", encoding="utf-8") as f:
         json.dump(char_data, f, ensure_ascii=False, indent=2)
     
     # 生成并保存角色描述
     char_desc = char_gen.generate_character_description(char_data)
-    with open(f"{world_dir}/characters/{char_data['metadata']['soul_id']}_description.txt", "w", encoding="utf-8") as f:
+    with open(f"{world_dir}/characters/{char_data['metadata']['id']}_description.txt", "w", encoding="utf-8") as f:
         f.write(char_desc)
     
     print(f"\n在自定义世界中创建了角色: {char_data['metadata']['name']}")
     print(char_desc[:200] + "...")
     
-    return world_id, char_data['metadata']['soul_id']
+    return world_id, char_data['metadata']['id']
 
 
 def main():

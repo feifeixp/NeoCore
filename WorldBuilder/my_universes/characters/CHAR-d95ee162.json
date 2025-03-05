@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "id": "CHAR-d95ee162",
+    "world_id": "TDP-04e10a56-2025",
+    "name": "刘经理",
+    "birth_datetime": "1995-04-08T02:00:00",
+    "gender": "female",
+    "era": "modern",
+    "created_at": "2025-03-04T20:10:38.918124"
+  },
+  "attributes": {
+    "strength": 56,
+    "intelligence": 51,
+    "charisma": 71
+  },
+  "skills": [
+    "项目管理",
+    "战略规划",
+    "团队领导"
+  ]
+}

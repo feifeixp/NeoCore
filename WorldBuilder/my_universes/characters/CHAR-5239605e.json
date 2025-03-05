@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "id": "CHAR-5239605e",
+    "name": "孙芳女士",
+    "gender": "female",
+    "era": "modern",
+    "birth_datetime": "1962-01-19T08:07:00",
+    "physical": {
+      "height": 160,
+      "weight": 67,
+      "blood_type": "AB",
+      "face_shape": "方形",
+      "eye_color": "绿色"
+    },
+    "personality": {
+      "main_traits": [
+        "感性",
+        "乐观",
+        "内向"
+      ],
+      "minor_traits": [
+        "完美主义",
+        "现实主义"
+      ]
+    }
+  },
+  "attributes": {
+    "strength": 63,
+    "intelligence": 75,
+    "charisma": 50,
+    "agility": 64,
+    "perception": 66
+  },
+  "skills": {
+    "main": [
+      "数据分析",
+      "金融投资",
+      "项目管理"
+    ],
+    "special": [
+      {
+        "name": "商业头脑",
+        "level": 3,
+        "description": "具有敏锐的商业洞察力和决策能力。"
+      },
+      {
+        "name": "计算机精通",
+        "level": 3,
+        "description": "精通各种编程语言和系统架构。"
+      }
+    ]
+  },
+  "background": {
+    "origin": "出身商业世家",
+    "details": "经历多个领域的尝试，找到自己的方向",
+    "important_events": [
+      {
+        "year": 2006,
+        "age": 5,
+        "title": "实现重要突破",
+        "significance": 3
+      },
+      {
+        "year": 2013,
+        "age": 12,
+        "title": "创立自己的公司",
+        "significance": 5
+      },
+      {
+        "year": 2017,
+        "age": 16,
+        "title": "达成人生目标",
+        "significance": 5
+      }
+    ]
+  }
+}

@@ -126,3 +126,69 @@ Content-Type: application/json
 **开启创世之旅**
 📧 contact@neocore.online | 📱 [开发者Discord](https://discord.gg/neocore)
 *代码即命运，每一行都是新宇宙的DNA*
+
+# 三纪元角色创建系统
+
+这是一个基于Web的角色创建系统，允许用户创建和管理虚拟角色。
+
+## 功能特点
+
+- 创建新世界或选择现有世界
+- 创建具有详细属性的角色
+- 支持三个纪元：修真、现代、未来
+- 自动生成角色详细描述
+- 响应式Web界面
+
+## 安装步骤
+
+1. 确保已安装Python 3.8或更高版本
+2. 克隆此仓库
+3. 安装依赖：
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. 设置环境变量：
+   ```bash
+   export DEEPSEEK_API_KEY="your-api-key-here"
+   ```
+
+## 运行应用
+
+1. 启动Flask应用：
+   ```bash
+   python app.py
+   ```
+2. 在浏览器中访问：
+   ```
+   http://localhost:5000
+   ```
+
+## 使用说明
+
+1. 在主页面上，您可以选择现有世界或创建新世界
+2. 填写角色信息：
+   - 角色名称
+   - 性别
+   - 所属纪元
+   - 出生日期和时间
+3. 点击"创建角色"按钮
+4. 系统将生成角色并显示详细信息
+
+## 目录结构
+
+```
+.
+├── app.py                 # Flask应用主文件
+├── requirements.txt       # 项目依赖
+├── templates/            # HTML模板
+│   └── create_character.html
+└── WorldBuilder/         # 角色创建核心逻辑
+    ├── create_random_character.py
+    └── tdp_system.py
+```
+
+## 注意事项
+
+- 确保已正确设置DEEPSEEK_API_KEY环境变量
+- 首次运行时会自动创建必要的目录结构
+- 所有角色数据将保存在my_universes目录中

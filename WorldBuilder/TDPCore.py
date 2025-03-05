@@ -1,6 +1,8 @@
 import hashlib
 import numpy as np
-from typing import Dict, List
+from typing import Dict, List, Any
+import random
+from datetime import datetime
 
 class WorldGenerator:
     def __init__(self):
@@ -124,6 +126,114 @@ class WorldGenerator:
             f"{np.random.choice(['符箓','区块链', '神经'])}{np.random.choice(['矿机', '契约', '接口'])}"
         ]
         return np.random.choice(combinations)
+
+    def _generate_personality_traits(self) -> Dict:
+        """生成性格特征"""
+        traits_pool = {
+            "positive": ["勇敢", "正直", "智慧", "谨慎", "乐观", "坚韧", "温和", "细心", "果断", "耐心"],
+            "neutral": ["神秘", "理性", "感性", "内向", "外向", "传统", "创新", "务实", "理想主义"],
+            "negative": ["固执", "多疑", "冲动", "傲慢", "优柔寡断", "敏感", "急躁", "孤僻"]
+        }
+        
+        return {
+            "main_traits": random.sample(traits_pool["positive"], 2) + random.sample(traits_pool["neutral"], 1),
+            "minor_traits": random.sample(traits_pool["neutral"], 1) + random.sample(traits_pool["negative"], 1)
+        }
+
+    def _generate_background_story(self, era: str, gender: str, attributes: Dict[str, int]) -> Dict[str, Any]:
+        # 使用预定义的模板随机选择
+        origin_templates = {
+            "ancient": [...],
+            "modern": [...],
+            "future": [...]
+        }
+        
+        details_templates = {
+            "ancient": [...],
+            "modern": [...],
+            "future": [...]
+        }
+
+    def calculate_bazi(self, birth_datetime: datetime) -> Dict[str, str]:
+        """计算生辰八字
+        
+        Args:
+            birth_datetime: 出生时间
+            
+        Returns:
+            Dict[str, str]: 年月日时的天干地支
+        """
+        # 实现天干地支转换
+        # 计算四柱
+        # 返回八字信息
+
+    def calculate_energy(self, bazi: Dict[str, str]) -> Dict[str, float]:
+        """计算八字能量
+        
+        Args:
+            bazi: 八字信息
+            
+        Returns:
+            Dict[str, float]: 五行能量分布
+        """
+        # 计算五行能量
+        # 计算吉凶
+        # 计算格局
+
+    def generate_personality_from_energy(self, energy: Dict[str, float]) -> Dict[str, List[str]]:
+        """基于五行能量生成性格特征
+        
+        Args:
+            energy: 五行能量分布
+            
+        Returns:
+            Dict[str, List[str]]: 性格特征
+        """
+        # 根据五行能量强弱生成对应性格
+        # 根据格局确定性格倾向
+
+    def generate_life_events_from_bazi(self, bazi: Dict[str, str], energy: Dict[str, float]) -> List[Dict]:
+        """基于八字和能量生成人生大事
+        
+        Args:
+            bazi: 八字信息
+            energy: 能量分布
+            
+        Returns:
+            List[Dict]: 人生重要事件列表
+        """
+        # 计算大运流年
+        # 预测人生转折点
+        # 生成对应事件
+
+    def generate_character(self, era: str, gender: str = None, name: str = None, birth_datetime: str = None) -> Dict[str, Any]:
+        """生成一个角色的完整数据。"""
+        # ... 现有的初始化代码 ...
+        
+        # 计算八字
+        bazi = self.calculate_bazi(birth_datetime)
+        
+        # 计算能量
+        energy = self.calculate_energy(bazi)
+        
+        # 生成角色数据
+        character_data = {
+            "metadata": {
+                "id": f"CHAR-{self._generate_id()}",
+                "name": name,
+                "gender": gender,
+                "era": era,
+                "birth_datetime": birth_datetime,
+                "physical": self._generate_physical_traits(),
+            },
+            "bazi": bazi,  # 添加八字数据
+            "energy": energy,  # 添加能量数据
+            "attributes": self._generate_attributes(),
+            "skills": self._generate_skills(era),
+            "background": self._generate_background_story(era, gender, attributes)
+        }
+        
+        return character_data
 
 # 使用示例
 if __name__ == "__main__":

@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "id": "CHAR-e9b94b36",
+    "world_id": "TDP-473ea7c7-2025",
+    "name": "电子研究员",
+    "birth_datetime": "2005-12-10T03:15:00",
+    "gender": "male",
+    "era": "future",
+    "created_at": "2025-03-04T20:10:12.074877"
+  },
+  "attributes": {
+    "strength": 52,
+    "intelligence": 64,
+    "charisma": 64
+  },
+  "skills": [
+    "意识上传",
+    "基因编程",
+    "时空跃迁"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "id": "CHAR-40d75807",
+    "world_id": "TDP-01f5671b-2025",
+    "name": "李经理",
+    "birth_datetime": "1995-04-08T02:00:00",
+    "gender": "female",
+    "era": "modern",
+    "created_at": "2025-03-04T20:10:38.919037"
+  },
+  "attributes": {
+    "strength": 54,
+    "intelligence": 91,
+    "charisma": 89
+  },
+  "skills": [
+    "项目管理",
+    "团队领导",
+    "数据分析"
+  ]
+}

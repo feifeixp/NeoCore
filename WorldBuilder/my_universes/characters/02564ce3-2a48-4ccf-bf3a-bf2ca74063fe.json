@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "id": "02564ce3-2a48-4ccf-bf3a-bf2ca74063fe",
+    "name": "林勇",
+    "creation_date": "2025-03-04T22:39:22.102934"
+  },
+  "basic": {
+    "gender": "male",
+    "era": "modern",
+    "birth_datetime": "1996-08-05T03:30:00"
+  },
+  "bazi": {
+    "year_pillar": null,
+    "month_pillar": null,
+    "day_pillar": null,
+    "hour_pillar": null,
+    "day_master": null,
+    "pattern": null
+  },
+  "analysis": {
+    "elements_distribution": {},
+    "world_influence": {},
+    "faction_compatibility": {},
+    "future_events": []
+  }
+}

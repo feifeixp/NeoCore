@@ -1181,107 +1181,68 @@ class CharacterDNAGenerator:
         Returns:
             角色描述文本
         """
-        soul_id = character_data["metadata"]["soul_id"]
-        universe_id = character_data["metadata"]["universe_id"]
-        birth_datetime = character_data["basic"]["birth_datetime"]
-        era = character_data["basic"]["era"]
+        # 获取基本信息
+        metadata = character_data["metadata"]
+        name = metadata["name"]
+        gender = metadata["gender"]
+        era = metadata["era"]
+        birth_datetime = metadata["birth_datetime"]
         
-        # 四柱信息
-        pillars = character_data["destiny_chart"]["pillars"]
-        nayin_elements = character_data["destiny_chart"]["nayin_elements"]
-        era_elements = character_data["destiny_chart"]["era_modified_elements"]
-        gods = character_data["destiny_chart"]["gods"]
-        era_gods = character_data["destiny_chart"]["era_gods"]
-        shensha = character_data["destiny_chart"]["shensha"]
+        # 获取八字信息
+        bazi = character_data["bazi"]
+        year_pillar = bazi["year_pillar"]
+        month_pillar = bazi["month_pillar"]
+        day_pillar = bazi["day_pillar"]
+        hour_pillar = bazi["hour_pillar"]
+        day_master = bazi["day_master"]
+        pattern = bazi["pattern"]
         
-        # 能力
-        abilities = character_data["abilities"]
-        
-        # 事件
-        events = character_data["life_events"]
+        # 获取能量信息
+        energy = character_data["energy"]
+        wuxing_count = energy.get("wuxing_count", {})
         
         # 格式化五行能量
         element_bars = {
-            "金": self._format_bar(nayin_elements.get("金", 0)),
-            "木": self._format_bar(nayin_elements.get("木", 0)),
-            "水": self._format_bar(nayin_elements.get("水", 0)),
-            "火": self._format_bar(nayin_elements.get("火", 0)),
-            "土": self._format_bar(nayin_elements.get("土", 0))
+            "金": self._format_bar(wuxing_count.get("金", 0)),
+            "木": self._format_bar(wuxing_count.get("木", 0)),
+            "水": self._format_bar(wuxing_count.get("水", 0)),
+            "火": self._format_bar(wuxing_count.get("火", 0)),
+            "土": self._format_bar(wuxing_count.get("土", 0))
         }
         
         # 生成命盘核心
         destiny_core = f"""四柱量子编码:
-  年柱: {pillars[0]} → {"金" if "金" in pillars[0] else "木" if "木" in pillars[0] else "水" if "水" in pillars[0] else "火" if "火" in pillars[0] else "土"}+2 {"土" if "土" in pillars[0] else "金" if "金" in pillars[0] else "木" if "木" in pillars[0] else "水" if "水" in pillars[0] else "火"}+1
-  月柱: {pillars[1]} → {"金" if "金" in pillars[1] else "木" if "木" in pillars[1] else "水" if "水" in pillars[1] else "火" if "火" in pillars[1] else "土"}+2 {"土" if "土" in pillars[1] else "金" if "金" in pillars[1] else "木" if "木" in pillars[1] else "水" if "水" in pillars[1] else "火"}+1
-  日柱: {pillars[2]} → {"金" if "金" in pillars[2] else "木" if "木" in pillars[2] else "水" if "水" in pillars[2] else "火" if "火" in pillars[2] else "土"}+2 {"土" if "土" in pillars[2] else "金" if "金" in pillars[2] else "木" if "木" in pillars[2] else "水" if "水" in pillars[2] else "火"}+1
-  时柱: {pillars[3]} → {"金" if "金" in pillars[3] else "木" if "木" in pillars[3] else "水" if "水" in pillars[3] else "火" if "火" in pillars[3] else "土"}+1 {"土" if "土" in pillars[3] else "金" if "金" in pillars[3] else "木" if "木" in pillars[3] else "水" if "水" in pillars[3] else "火"}+2
+  年柱: {year_pillar} → {"金" if "金" in year_pillar else "木" if "木" in year_pillar else "水" if "水" in year_pillar else "火" if "火" in year_pillar else "土"}+2 {"土" if "土" in year_pillar else "金" if "金" in year_pillar else "木" if "木" in year_pillar else "水" if "水" in year_pillar else "火"}+1
+  月柱: {month_pillar} → {"金" if "金" in month_pillar else "木" if "木" in month_pillar else "水" if "水" in month_pillar else "火" if "火" in month_pillar else "土"}+2 {"土" if "土" in month_pillar else "金" if "金" in month_pillar else "木" if "木" in month_pillar else "水" if "水" in month_pillar else "火"}+1
+  日柱: {day_pillar} → {"金" if "金" in day_pillar else "木" if "木" in day_pillar else "水" if "水" in day_pillar else "火" if "火" in day_pillar else "土"}+2 {"土" if "土" in day_pillar else "金" if "金" in day_pillar else "木" if "木" in day_pillar else "水" if "水" in day_pillar else "火"}+1
+  时柱: {hour_pillar} → {"金" if "金" in hour_pillar else "木" if "木" in hour_pillar else "水" if "水" in hour_pillar else "火" if "火" in hour_pillar else "土"}+1 {"土" if "土" in hour_pillar else "金" if "金" in hour_pillar else "木" if "木" in hour_pillar else "水" if "水" in hour_pillar else "火"}+2
 
 五行能量场:
-  金: {element_bars["金"]} {int(nayin_elements.get("金", 0)*100)}%
-  木: {element_bars["木"]} {int(nayin_elements.get("木", 0)*100)}%
-  水: {element_bars["水"]} {int(nayin_elements.get("水", 0)*100)}%
-  火: {element_bars["火"]} {int(nayin_elements.get("火", 0)*100)}%
-  土: {element_bars["土"]} {int(nayin_elements.get("土", 0)*100)}%
+  金: {element_bars["金"]} {int(wuxing_count.get("金", 0)*100)}%
+  木: {element_bars["木"]} {int(wuxing_count.get("木", 0)*100)}%
+  水: {element_bars["水"]} {int(wuxing_count.get("水", 0)*100)}%
+  火: {element_bars["火"]} {int(wuxing_count.get("火", 0)*100)}%
+  土: {element_bars["土"]} {int(wuxing_count.get("土", 0)*100)}%
 
-十神格局:
-  日主{pillars[2][0]}生于{pillars[1][1]}月 → {gods[2]}格{' 透印' if '印' in gods[0] or '印' in gods[1] or '印' in gods[3] else ''}
-  天干透{', '.join([g for i, g in enumerate(gods) if i != 2 and g != "未知"])}
-  地支{self._count_elements_in_zhi([p[1] for p in pillars])}
-
-神煞系统:
-  {self._format_shensha(shensha, pillars)}"""
+八字格局:
+  日主{day_pillar[0]}生于{month_pillar[1]}月 → {pattern}"""
 
         # 生成能力描述
-        ability_desc = f"""
-■ 主要能力: {abilities["main"]}
-■ 特殊能力: {', '.join(abilities["special"]) if abilities["special"] else "无特殊能力"}
-■ 能力值:
-  - 攻击: {abilities["values"]["attack"]}
-  - 防御: {abilities["values"]["defense"]}
-  - 智力: {abilities["values"]["intelligence"]}"""
+        abilities = character_data.get("abilities", {})
+        ability_desc = ""
+        if abilities:
+            ability_desc = "\n".join([f"- {ability}: {level}" for ability, level in abilities.items()])
+        else:
+            ability_desc = "暂无能力数据"
 
-        # 生成事件时间线
-        timeline = "\n".join([f"■ {e['age']}岁: {e['description']}\n  {e['era_specific']}" for e in events])
-        
-        # 根据纪元生成称号
-        titles = {
-            "ancient": ["仙师", "道者", "真人", "宗师", "奇士"],
-            "modern": ["专家", "大师", "教授", "精英", "先锋"],
-            "future": ["超链者", "奇点", "量子行者", "编码师", "超维者"]
-        }
-        
-        # 随机选择名字组件
-        name_components = {
-            "ancient": {
-                "surnames": ["李", "王", "张", "刘", "陈", "赵", "林", "杨", "黄", "周"],
-                "names": ["云", "霜", "雨", "风", "雷", "电", "山", "川", "海", "天"]
-            },
-            "modern": {
-                "surnames": ["王", "李", "张", "刘", "陈", "杨", "赵", "黄", "周", "吴"],
-                "names": ["明", "强", "伟", "勇", "军", "杰", "涛", "超", "刚", "磊"]
-            },
-            "future": {
-                "surnames": ["量子", "星", "光", "电", "时", "空", "零", "元", "微", "超"],
-                "names": ["灵", "数", "芯", "码", "维", "矩", "阵", "流", "波", "粒"]
-            }
-        }
-        
-        # 生成姓名
-        surname = random.choice(name_components[era]["surnames"])
-        name = random.choice(name_components[era]["names"])
-        full_name = surname + name
-        
-        # 生成称号
-        title = random.choice(titles[era])
-        
+        # 生成标题
+        title = "「修仙者」" if era == "ancient" else "「现代人」" if era == "modern" else "「未来人」"
+
         # 组合完整描述
-        description = f"""「范例」命理驱动角色实例：{full_name} {title}
-
-灵魂签名： {soul_id}
-适用宇宙：{universe_id}
+        description = f"""「角色档案」命理驱动角色实例：{name} {title}
 
 一、先天命盘解析
-出生时刻：{birth_datetime} ({pillars[0]}年{pillars[1]}月{pillars[2]}日{pillars[3]}时)
+出生时刻：{birth_datetime} ({year_pillar}年{month_pillar}月{day_pillar}日{hour_pillar}时)
 
 1.1 命盘核心参数
 {destiny_core}
@@ -1289,55 +1250,26 @@ class CharacterDNAGenerator:
 1.2 先天特质分析
 内在性格：
 - [优势]
-  ■ 坚韧不拔：{pillars[2]}日主得天独厚
-  ■ 谋定后动：{'食伤心性' if '食' in gods or '伤' in gods else '官杀果断' if '官' in gods or '杀' in gods else '印绶聪慧'}
-  ■ {'求知若渴' if '印' in gods else '领导能力' if '官' in gods else '创造天赋' if '伤' in gods else '财运亨通' if '财' in gods else '团队合作'}：{'五行平衡' if max(nayin_elements.values()) - min(nayin_elements.values()) < 0.3 else f"{'金' if nayin_elements.get('金', 0) > 0.3 else '木' if nayin_elements.get('木', 0) > 0.3 else '水' if nayin_elements.get('水', 0) > 0.3 else '火' if nayin_elements.get('火', 0) > 0.3 else '土'}气旺盛"}
+  ■ 坚韧不拔：{day_pillar}日主得天独厚
+  ■ 谋定后动：{pattern}格局
+  ■ {'求知若渴' if '印' in pattern else '领导能力' if '官' in pattern else '创造天赋' if '伤' in pattern else '财运亨通' if '财' in pattern else '团队合作'}：{'五行平衡' if max(wuxing_count.values()) - min(wuxing_count.values()) < 0.3 else f"{'金' if wuxing_count.get('金', 0) > 0.3 else '木' if wuxing_count.get('木', 0) > 0.3 else '水' if wuxing_count.get('水', 0) > 0.3 else '火' if wuxing_count.get('火', 0) > 0.3 else '土'}气旺盛"}
 
 - [弱点]
-  ◆ {'固执己见' if nayin_elements.get('土', 0) > 0.3 else '情绪化' if nayin_elements.get('水', 0) > 0.3 else '急躁' if nayin_elements.get('火', 0) > 0.3 else '优柔寡断' if nayin_elements.get('木', 0) > 0.3 else '冷漠'}：性格偏颇需平衡
-  ◆ {'人际关系' if '财' in gods else '创新突破' if '伤' in gods else '学习能力' if '印' in gods else '执行力'}：{'需要刻意培养' if min(nayin_elements.values()) < 0.1 else '有待提升'}
-  ◆ {'易走极端' if '刃' in ''.join(str(s) for s in shensha) else '思维固化' if nayin_elements.get('土', 0) > 0.4 else '情感压抑' if nayin_elements.get('金', 0) > 0.4 else '缺乏耐心'}：需注意自我调节
+  ◆ {'固执己见' if wuxing_count.get('土', 0) > 0.3 else '情绪化' if wuxing_count.get('水', 0) > 0.3 else '急躁' if wuxing_count.get('火', 0) > 0.3 else '优柔寡断' if wuxing_count.get('木', 0) > 0.3 else '冷漠'}：性格偏颇需平衡
+  ◆ {'人际关系' if '财' in pattern else '创新突破' if '伤' in pattern else '学习能力' if '印' in pattern else '执行力'}：{'需要刻意培养' if min(wuxing_count.values()) < 0.1 else '有待提升'}
+  ◆ {'易走极端' if '刃' in pattern else '思维固化' if wuxing_count.get('土', 0) > 0.4 else '情感压抑' if wuxing_count.get('金', 0) > 0.4 else '缺乏耐心'}：需注意自我调节
 
 二、后天运势推演
-所处宇宙：{universe_id} (当前纪元：{era})
+所处纪元：{era}
 
 2.1 环境调制参数
-{self._format_era_table(era_elements, era)}
+{self._format_era_table(energy, era)}
 
 2.2 关键命运节点
 {ability_desc}
 
 2.3 命运轨迹
-{timeline}
-
-三、多宇宙形态映射
-3.1 {era}纪元: {full_name}·{title}
-{self._generate_era_specific_description(full_name, era, abilities, events)}
-
-3.2 {self._get_alternative_era(era, 1)}纪元形态
-{self._generate_alternative_era_description(full_name, abilities, era, self._get_alternative_era(era, 1))}
-
-3.3 {self._get_alternative_era(era, 2)}纪元形态
-{self._generate_alternative_era_description(full_name, abilities, era, self._get_alternative_era(era, 2))}
-
-四、命运核心公式验证
-潜能释放效率：
-\\frac{{命宫强度({max(nayin_elements.values()):.1f}) \\times 大运匹配度({character_data["calculations"]["compatibility"]:.1f})}}{{1 + |时代冲突系数({character_data["calculations"]["era_conflict"]:.2f})|}} = {character_data["calculations"]["potential"]:.3f} → {int(character_data["calculations"]["potential"]*100)}%潜能开发度
-
-五、跨纪元生存指南
-1. 能量适配
-   ◯ {'修真者乘坐飞机需给飞剑购买航空保险' if era == 'ancient' else '数据流需符合物理世界编码标准' if era == 'future' else '避免在灵气波动区使用高精度电子设备'}
-   ◯ {'赛博格充电时需避开雷劫高发区' if era == 'future' else '修士在科技区需屏蔽灵气波动' if era == 'ancient' else '佩戴特制屏障避免灵能干扰'}
-
-2. 通讯协议
-   ◯ {'传音玉符频率需符合5G NSA标准' if era == 'ancient' else '脑机接口不得传输超过元婴期的神识' if era == 'future' else '避免使用灵能干扰通讯设备'}
-   ◯ {'量子通讯需预留古法秘咒缓冲区' if era == 'future' else '心灵传音需加密以防科技监听' if era == 'ancient' else '正式场合避免使用超感官能力'}
-
-3. 冲突解决
-   ◯ {'飞剑与无人机空域争端由AI判官仲裁' if era == 'ancient' or era == 'future' else '灵能与科技冲突适用混合法庭规则'}
-   ◯ {'渡劫引发的停电事故适用不可抗力条款' if era == 'ancient' else '量子波动导致的数据丢失有专属保险' if era == 'future' else '神秘事件有专门的调查流程'}
-
-该角色由命理驱动的量子叠加态人生轨迹，在确定性与可能性之间达到精妙平衡。完全符合VUCCP v1.0和TDP v{self.protocol_version}协议标准。"""
+{character_data.get("background", {}).get("story", "暂无背景故事")}"""
 
         return description
     

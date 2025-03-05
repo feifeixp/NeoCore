@@ -1,0 +1,149 @@
+# 世界描述相关文本元素
+world:
+  title_format: "世界编号：{world_id}"
+  checksum_format: "法则校验码：#{checksum}-{validation}"
+  
+  # 熵增监控面板
+  entropy_panel:
+    title: "[熵增监控面板]"
+    header: "参数                    当前值              阈值                状态"
+    metrics:
+      - name: "灵气-石油转化率"
+        threshold: "1:4.0桶"
+        format: "1:{value:.1f}桶"
+        status:
+          normal: "稳定"
+          warning: "经济预警"
+      - name: "渡劫成功概率"
+        format: "{value:.1f}%"
+        suffix: "量子计算修正值"
+        adjustment: "{sign}{value:.1f}%"
+      - name: "反物质泄漏次数"
+        format: "{value}/月"
+        threshold: "30次/月"
+        status: "安全范围"
+      - name: "时空因果扰动指数"
+        format: "{value:.1f}"
+        threshold: "100.0"
+        status: "维度稳定"
+  
+  # 地点描述
+  locations:
+    ancient_modern:
+      title: "▣ 灵脉域（上古/当代融合区）"
+      descriptions:
+        - "生态：商业街上空悬浮着古代仙家洞府，市政喷泉涌出灵泉"
+        - "资源：可提炼灵石的页岩气田（灵气纯度：72%）"
+        - "异常：手机信号强度与区域灵脉活跃度成正比"
+    modern_future:
+      title: "▣ 反物质塔（当代/未来融合区）"
+      descriptions:
+        - "生态：纳米聚变路灯照耀下的智能生态花园"
+        - "资源：用河图洛书加密的反物质精矿"
+        - "异常：退市股票会引发反物质波动"
+    ancient_future:
+      title: "▣ 星陨谷（上古/未来融合区）"
+      descriptions:
+        - "生态：古代法阵与量子算法形成的混合防御系统"
+        - "资源：能存储神识的比特币矿机"
+        - "异常：修炼突破时引发量子计算负载峰值"
+  
+  # 协议声明
+  protocol_statement: "该世界严格遵循TDP协议v{version}生成，任何参数修改超过±0.3%将导致#{checksum}-{validation}校验码失效并生成平行宇宙。当前时空连续性担保期至{expiry_date}。"
+
+# 角色描述相关文本元素
+character:
+  title_format: "「{era_title}」命理驱动角色实例：{name}"
+  soul_signature: "灵魂签名： {soul_id}"
+  universe: "适用宇宙：{world_id}"
+  
+  # 命盘解析
+  destiny_chart:
+    title: "一、先天命盘解析"
+    birth_time: "出生时刻：{datetime}"
+    core_params: "1.1 命盘核心参数"
+    
+    # 四柱量子编码
+    quantum_code:
+      title: "四柱量子编码:"
+      pillars:
+        - "年柱: 甲申 → 土+2 火+1"
+        - "月柱: 丙寅 → 土+2 火+1"
+        - "日柱: 甲申 → 土+2 火+1"
+        - "时柱: 壬申 → 土+1 火+2"
+    
+    # 五行能量场
+    elements:
+      title: "五行能量场:"
+      format: "{element}: {bar} {percentage}%"
+      elements:
+        - name: "金"
+          default_value: 73
+        - name: "木"
+          default_value: 26
+        - name: "水"
+          default_value: 0
+        - name: "火"
+          default_value: 0
+        - name: "土"
+          default_value: 0
+  
+  # 技能系统
+  skills:
+    title: "二、技能系统"
+    abilities: "■ 主要能力:"
+    stats: "■ 能力值:"
+    stats_format:
+      strength: "  - 攻击: {value}"
+      charisma: "  - 防御: {value}"
+      intelligence: "  - 智力: {value}"
+  
+  # 纪元特定技能池
+  skill_pools:
+    ancient:
+      - "道法自然"
+      - "五行相生"
+      - "天地灵气"
+      - "符箓之术"
+      - "丹道修炼"
+    future:
+      - "量子计算"
+      - "纳米技术"
+      - "意识上传"
+      - "基因编程"
+      - "时空跃迁"
+    modern:
+      - "数据分析"
+      - "项目管理"
+      - "资源整合"
+      - "战略规划"
+      - "团队领导"
+  
+  # 姓名生成
+  name_generation:
+    ancient:
+      surnames: ["玄", "青", "紫", "金", "白"]
+      titles: ["真人", "道君", "仙子", "天君", "圣女"]
+      female_middle: ["霜", "雪", "月", "云", "灵"]
+      male_middle: ["天", "地", "山", "河", "海"]
+      female_given: ["霞", "月", "花", "雪", "玉", "珠", "凤", "莲", "春", "秋"]
+      male_given: ["云", "风", "山", "河", "海", "天", "地", "星", "月", "日"]
+    future:
+      surnames: ["量子", "星", "银", "光", "电子"]
+      titles: ["研究员", "工程师", "设计师", "指挥官", "专家"]
+      female_given: ["艾", "星", "晶", "光", "琳", "智", "芯", "未", "晓", "瑶"]
+      male_given: ["阿", "星", "光", "智", "芯", "未", "晓", "瑞", "科", "元"]
+    modern:
+      surnames: ["李", "王", "张", "刘", "陈"]
+      titles: ["博士", "教授", "总监", "主任", "经理"]
+      female_given: ["娟", "敏", "静", "秀", "丽", "艳", "芳", "萍", "英", "华"]
+      male_given: ["伟", "强", "磊", "超", "勇", "军", "建", "光", "明", "永"]
+  
+  # 纪元标题
+  era_titles:
+    ancient: "修真"
+    modern: "现代"
+    future: "未来"
+  
+  # 协议声明
+  protocol_statement: "该角色由命理驱动的量子叠加态人生轨迹，在确定性与可能性之间达到精妙平衡。完全符合VUCCP v1.0和TDP v{version}协议标准。" 

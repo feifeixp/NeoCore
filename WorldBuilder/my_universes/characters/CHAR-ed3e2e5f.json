@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "id": "CHAR-ed3e2e5f",
+    "world_id": "TDP-19a09fe1-2025",
+    "name": "张经理",
+    "birth_datetime": "1995-04-08T02:00:00",
+    "gender": "female",
+    "era": "modern",
+    "created_at": "2025-03-04T20:11:04.239239"
+  },
+  "attributes": {
+    "strength": 51,
+    "intelligence": 55,
+    "charisma": 67
+  },
+  "skills": [
+    "战略规划",
+    "数据分析",
+    "资源整合"
+  ]
+}

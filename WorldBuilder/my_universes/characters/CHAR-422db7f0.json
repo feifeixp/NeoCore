@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "id": "CHAR-422db7f0",
+    "name": "费元华",
+    "gender": "male",
+    "era": "ancient",
+    "birth_datetime": "1982-12-03T12:00:00",
+    "physical": {
+      "height": 185,
+      "weight": 74,
+      "blood_type": "O",
+      "face_shape": "圆形",
+      "eye_color": "黑色"
+    },
+    "personality": {
+      "main_traits": [
+        "温和",
+        "开朗",
+        "悲观"
+      ],
+      "minor_traits": [
+        "现实主义",
+        "保守主义"
+      ]
+    }
+  },
+  "attributes": {
+    "strength": 80,
+    "intelligence": 77,
+    "charisma": 52,
+    "agility": 91,
+    "perception": 70
+  },
+  "skills": {
+    "main": [
+      "轻功身法",
+      "炼器技艺",
+      "兵器锻造"
+    ],
+    "special": [
+      {
+        "name": "剑术精通",
+        "level": 10,
+        "description": "精通各种剑法，能够应对各种战斗情况。"
+      },
+      {
+        "name": "内功心法",
+        "level": 8,
+        "description": "运用内力增强体魄，提升战斗力。"
+      }
+    ]
+  },
+  "background": {
+    "origin": "出生于武林世家，自小习武",
+    "details": "游历江湖，结识各路豪杰",
+    "important_events": [
+      {
+        "year": 2001,
+        "age": 7,
+        "title": "开始修炼内功",
+        "significance": 5
+      },
+      {
+        "year": 2006,
+        "age": 12,
+        "title": "参与门派大比",
+        "significance": 1
+      },
+      {
+        "year": 2013,
+        "age": 19,
+        "title": "游历江湖历练",
+        "significance": 3
+      }
+    ]
+  }
+}

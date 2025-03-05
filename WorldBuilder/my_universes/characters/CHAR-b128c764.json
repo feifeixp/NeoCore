@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "id": "CHAR-b128c764",
+    "world_id": "TDP-c092f993-2025",
+    "name": "白圣女",
+    "birth_datetime": "1990-01-01T00:00:00",
+    "gender": "male",
+    "era": "ancient",
+    "created_at": "2025-03-04T20:09:38.416525"
+  },
+  "attributes": {
+    "strength": 57,
+    "intelligence": 87,
+    "charisma": 96
+  },
+  "skills": [
+    "符箓之术",
+    "天地灵气",
+    "道法自然"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "id": "CHAR-b6819e61",
+    "world_id": "TDP-eee5e6a4-2025",
+    "name": "刘博士",
+    "birth_datetime": "1995-04-08T02:00:00",
+    "gender": "female",
+    "era": "modern",
+    "created_at": "2025-03-04T20:08:55.714048"
+  },
+  "attributes": {
+    "strength": 97,
+    "intelligence": 97,
+    "charisma": 67
+  },
+  "skills": [
+    "数据分析",
+    "战略规划",
+    "资源整合"
+  ]
+}

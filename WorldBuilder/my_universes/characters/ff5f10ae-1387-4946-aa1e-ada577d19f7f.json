@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "id": "ff5f10ae-1387-4946-aa1e-ada577d19f7f",
+    "name": "郭静",
+    "creation_date": "2025-03-04T22:23:38.632743"
+  },
+  "basic": {
+    "gender": "female",
+    "era": "future",
+    "birth_datetime": "1973-04-19T19:58:00"
+  },
+  "bazi": {
+    "year_pillar": null,
+    "month_pillar": null,
+    "day_pillar": null,
+    "hour_pillar": null,
+    "day_master": null,
+    "pattern": null
+  },
+  "analysis": {
+    "elements_distribution": {},
+    "world_influence": {},
+    "faction_compatibility": {},
+    "future_events": []
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "id": "30d37ceb-7c75-407e-a259-2a45530f6cbd",
+    "name": "陈辰",
+    "creation_date": "2025-03-04T22:44:50.349157"
+  },
+  "basic": {
+    "gender": "male",
+    "era": "modern",
+    "birth_datetime": "1984-02-13T06:45:00"
+  },
+  "bazi": {
+    "year_pillar": null,
+    "month_pillar": null,
+    "day_pillar": null,
+    "hour_pillar": null,
+    "day_master": null,
+    "pattern": null
+  },
+  "analysis": {
+    "elements_distribution": {},
+    "world_influence": {},
+    "faction_compatibility": {},
+    "future_events": []
+  }
+}

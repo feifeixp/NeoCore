@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "id": "CHAR-e040e474",
+    "world_id": "TDP-c092f993-2025",
+    "name": "量子设计师",
+    "birth_datetime": "2000-07-15T04:00:00",
+    "gender": "male",
+    "era": "future",
+    "created_at": "2025-03-04T20:09:38.417056"
+  },
+  "attributes": {
+    "strength": 59,
+    "intelligence": 85,
+    "charisma": 71
+  },
+  "skills": [
+    "时空跃迁",
+    "意识上传",
+    "量子计算"
+  ]
+}

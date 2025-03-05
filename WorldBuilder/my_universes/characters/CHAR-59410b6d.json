@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "id": "CHAR-59410b6d",
+    "world_id": "TDP-81391fed-2025",
+    "name": "费元华",
+    "birth_datetime": "1982-12-03T12:00:00",
+    "gender": "male",
+    "era": "ancient",
+    "created_at": "2025-03-04T20:41:35.458878"
+  },
+  "attributes": {
+    "strength": 80,
+    "intelligence": 79,
+    "charisma": 95
+  },
+  "skills": [
+    "天地灵气",
+    "五行相生",
+    "丹道修炼"
+  ]
+}

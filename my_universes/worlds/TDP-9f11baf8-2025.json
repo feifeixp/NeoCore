@@ -1,0 +1,45 @@
+{
+  "id": "TDP-9f11baf8-2025",
+  "created_at": "2025-03-05T23:13:57.699019",
+  "characters": [
+    "985c2f64-e2ca-4ca8-933a-b0ccbab8799c"
+  ],
+  "entropy": 0.0,
+  "validation": {
+    "checksum": "3998af97ed684ace829cf07a0c9677be",
+    "last_modified": "2025-03-05T23:13:57.699027"
+  },
+  "era_distribution": {
+    "ancient": 33,
+    "modern": 44,
+    "future": 23
+  },
+  "regions": [
+    "灵能峡谷",
+    "霜寒高原",
+    "天穹之城"
+  ],
+  "energy_system": {
+    "机械": 36,
+    "信仰": 40,
+    "科技": 24
+  },
+  "factions": {
+    "faction_1": {
+      "name": "自然守护者",
+      "type": "环保",
+      "alignment": "善良"
+    },
+    "faction_2": {
+      "name": "暗影公会",
+      "type": "犯罪",
+      "alignment": "混乱"
+    },
+    "faction_3": {
+      "name": "战士同盟",
+      "type": "军事",
+      "alignment": "秩序"
+    }
+  },
+  "background": "生成文本时发生错误: 生成文本时出错: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.，请检查 API 配置。"
+}

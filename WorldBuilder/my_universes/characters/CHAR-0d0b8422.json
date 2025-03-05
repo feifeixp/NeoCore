@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "id": "CHAR-0d0b8422",
+    "name": "吴秀",
+    "gender": "female",
+    "era": "modern",
+    "birth_datetime": "2015-03-26T05:36:00",
+    "physical": {
+      "height": 160,
+      "weight": 72,
+      "blood_type": "AB",
+      "face_shape": "方形",
+      "eye_color": "棕色"
+    },
+    "personality": {
+      "main_traits": [
+        "悲观",
+        "感性",
+        "激进"
+      ],
+      "minor_traits": [
+        "实用主义",
+        "完美主义"
+      ]
+    }
+  },
+  "attributes": {
+    "strength": 75,
+    "intelligence": 92,
+    "charisma": 53,
+    "agility": 72,
+    "perception": 80
+  },
+  "skills": {
+    "main": [
+      "金融投资",
+      "团队领导",
+      "人工智能"
+    ],
+    "special": [
+      {
+        "name": "社交能力",
+        "level": 3,
+        "description": "善于处理人际关系，建立有效的社交网络。"
+      }
+    ]
+  },
+  "background": {
+    "origin": "成长于学术世家",
+    "details": "通过不断学习和实践，掌握了专业技能",
+    "important_events": [
+      {
+        "year": 1999,
+        "age": 7,
+        "title": "获得重要奖项",
+        "significance": 1
+      },
+      {
+        "year": 2007,
+        "age": 15,
+        "title": "获得重要奖项",
+        "significance": 4
+      },
+      {
+        "year": 2010,
+        "age": 18,
+        "title": "获得重要奖项",
+        "significance": 5
+      }
+    ]
+  }
+}

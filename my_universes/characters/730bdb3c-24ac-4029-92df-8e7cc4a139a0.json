@@ -1,0 +1,60 @@
+{
+  "basic": {
+    "name": "费琴华",
+    "gender": "female",
+    "era": "ancient",
+    "birth_datetime": "1987-06-30T22:00"
+  },
+  "physical": {
+    "height": 166,
+    "weight": 81,
+    "blood_type": "O",
+    "face_shape": "圆形",
+    "eye_color": "琥珀色"
+  },
+  "personality": {
+    "main_traits": [
+      "大胆",
+      "温和",
+      "谨慎"
+    ],
+    "minor_traits": [
+      "浪漫主义",
+      "完美主义"
+    ]
+  },
+  "skills": {
+    "main": [
+      "丹道修炼",
+      "剑术精通",
+      "毒术研究"
+    ],
+    "special": []
+  },
+  "special_abilities": [
+    {
+      "name": "内功心法",
+      "level": 9,
+      "description": "运用内力增强体魄，提升战斗力。"
+    },
+    {
+      "name": "剑术精通",
+      "level": 6,
+      "description": "精通各种剑法，能够应对各种战斗情况。"
+    },
+    {
+      "name": "丹道修炼",
+      "level": 4,
+      "description": "能够炼制各种丹药，提升修为。"
+    }
+  ],
+  "metadata": {
+    "id": "730bdb3c-24ac-4029-92df-8e7cc4a139a0",
+    "name": "费琴华",
+    "gender": "female",
+    "era": "ancient",
+    "world_id": "TDP-d1dfdd0a-2025",
+    "birth_datetime": "1987-06-30T22:00:00",
+    "created_at": "2025-03-05T23:25:33.082573"
+  }
+}

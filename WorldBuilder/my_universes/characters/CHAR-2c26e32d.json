@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "id": "CHAR-2c26e32d",
+    "world_id": "TDP-5a3cbdf1-2025",
+    "name": "金天君",
+    "birth_datetime": "1990-01-01T00:00:00",
+    "gender": "male",
+    "era": "ancient",
+    "created_at": "2025-03-04T20:28:01.359988"
+  },
+  "attributes": {
+    "strength": 94,
+    "intelligence": 55,
+    "charisma": 70
+  },
+  "skills": [
+    "丹道修炼",
+    "道法自然",
+    "符箓之术"
+  ]
+}

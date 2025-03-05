@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "id": "CHAR-b012c37a",
+    "world_id": "TDP-5a3cbdf1-2025",
+    "name": "电子研究员",
+    "birth_datetime": "2000-07-15T04:00:00",
+    "gender": "male",
+    "era": "future",
+    "created_at": "2025-03-04T20:28:01.360394"
+  },
+  "attributes": {
+    "strength": 68,
+    "intelligence": 93,
+    "charisma": 98
+  },
+  "skills": [
+    "纳米技术",
+    "量子计算",
+    "基因编程"
+  ]
+}

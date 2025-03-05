@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "id": "d45d45d1-a1d8-4555-83b8-74745f8938d6",
+    "name": "张伟鹏",
+    "creation_date": "2025-03-04T22:22:02.104798"
+  },
+  "basic": {
+    "gender": "male",
+    "era": "future",
+    "birth_datetime": "1992-02-16T18:39:00"
+  },
+  "bazi": {
+    "year_pillar": null,
+    "month_pillar": null,
+    "day_pillar": null,
+    "hour_pillar": null,
+    "day_master": null,
+    "pattern": null
+  },
+  "analysis": {
+    "elements_distribution": {},
+    "world_influence": {},
+    "faction_compatibility": {},
+    "future_events": []
+  }
+}

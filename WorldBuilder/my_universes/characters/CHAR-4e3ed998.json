@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "id": "CHAR-4e3ed998",
+    "world_id": "TDP-5c95eccc-2025",
+    "name": "费琴华",
+    "birth_datetime": "1988-07-30T22:00:00",
+    "gender": "male",
+    "era": "ancient",
+    "created_at": "2025-03-04T20:42:15.979995"
+  },
+  "attributes": {
+    "strength": 64,
+    "intelligence": 58,
+    "charisma": 97
+  },
+  "skills": [
+    "丹道修炼",
+    "天地灵气",
+    "符箓之术"
+  ]
+}

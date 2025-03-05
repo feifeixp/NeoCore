@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "id": "CHAR-2a3aa4ea",
+    "world_id": "TDP-04e10a56-2025",
+    "name": "金道君",
+    "birth_datetime": "1990-01-01T00:00:00",
+    "gender": "male",
+    "era": "ancient",
+    "created_at": "2025-03-04T20:10:38.917639"
+  },
+  "attributes": {
+    "strength": 51,
+    "intelligence": 100,
+    "charisma": 82
+  },
+  "skills": [
+    "符箓之术",
+    "五行相生",
+    "丹道修炼"
+  ]
+}

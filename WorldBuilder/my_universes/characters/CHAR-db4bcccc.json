@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "id": "CHAR-db4bcccc",
+    "world_id": "TDP-91710aed-2025",
+    "name": "光专家",
+    "birth_datetime": "2000-07-15T04:00:00",
+    "gender": "male",
+    "era": "future",
+    "created_at": "2025-03-04T20:09:38.416264"
+  },
+  "attributes": {
+    "strength": 71,
+    "intelligence": 60,
+    "charisma": 74
+  },
+  "skills": [
+    "量子计算",
+    "时空跃迁",
+    "纳米技术"
+  ]
+}

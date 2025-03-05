@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "id": "46084f5e-e3dd-464c-9da3-beaefa0f0b07",
+    "name": "费元华",
+    "creation_date": "2025-03-05T00:37:27.943614"
+  },
+  "basic": {
+    "gender": "male",
+    "era": "modern",
+    "birth_datetime": "1982-12-03T12:00:00"
+  },
+  "bazi": {
+    "year_pillar": null,
+    "month_pillar": null,
+    "day_pillar": null,
+    "hour_pillar": null,
+    "day_master": null,
+    "pattern": null
+  },
+  "analysis": {
+    "elements_distribution": {},
+    "world_influence": {},
+    "faction_compatibility": {},
+    "future_events": []
+  }
+}

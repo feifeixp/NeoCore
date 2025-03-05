@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "id": "88b906aa-a783-4935-9b61-d960c4f1161c",
+    "name": "吴晶琳",
+    "creation_date": "2025-03-05T01:04:04.903542"
+  },
+  "basic": {
+    "gender": "female",
+    "era": "future",
+    "birth_datetime": "2009-09-20T07:47:00"
+  },
+  "bazi": {
+    "year_pillar": null,
+    "month_pillar": null,
+    "day_pillar": null,
+    "hour_pillar": null,
+    "day_master": null,
+    "pattern": null
+  },
+  "analysis": {
+    "elements_distribution": {},
+    "world_influence": {},
+    "faction_compatibility": {},
+    "future_events": []
+  }
+}

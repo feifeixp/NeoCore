@@ -1,0 +1,60 @@
+{
+  "basic": {
+    "name": "费元华",
+    "gender": "male",
+    "era": "modern",
+    "birth_datetime": "1982-12-03T12:00"
+  },
+  "physical": {
+    "height": 186,
+    "weight": 81,
+    "blood_type": "AB",
+    "face_shape": "瓜子脸",
+    "eye_color": "蓝色"
+  },
+  "personality": {
+    "main_traits": [
+      "温和",
+      "正直",
+      "大胆"
+    ],
+    "minor_traits": [
+      "完美主义",
+      "实用主义"
+    ]
+  },
+  "skills": {
+    "main": [
+      "市场营销",
+      "数据分析",
+      "计算机编程"
+    ],
+    "special": []
+  },
+  "special_abilities": [
+    {
+      "name": "计算机精通",
+      "level": 5,
+      "description": "精通各种编程语言和系统架构。"
+    },
+    {
+      "name": "商业头脑",
+      "level": 2,
+      "description": "具有敏锐的商业洞察力和决策能力。"
+    },
+    {
+      "name": "社交能力",
+      "level": 10,
+      "description": "善于处理人际关系，建立有效的社交网络。"
+    }
+  ],
+  "metadata": {
+    "id": "01b4c8aa-b1eb-4cb1-8121-b880a62b6d77",
+    "name": "费元华",
+    "gender": "male",
+    "era": "modern",
+    "world_id": "TDP-29e228ce-2025",
+    "birth_datetime": "1982-12-03T12:00:00",
+    "created_at": "2025-03-05T22:27:29.123081"
+  }
+}

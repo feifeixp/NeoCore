@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "id": "CHAR-4fd899a8",
+    "world_id": "TDP-91710aed-2025",
+    "name": "白道君",
+    "birth_datetime": "1990-01-01T00:00:00",
+    "gender": "male",
+    "era": "ancient",
+    "created_at": "2025-03-04T20:09:38.415490"
+  },
+  "attributes": {
+    "strength": 56,
+    "intelligence": 99,
+    "charisma": 51
+  },
+  "skills": [
+    "五行相生",
+    "丹道修炼",
+    "道法自然"
+  ]
+}

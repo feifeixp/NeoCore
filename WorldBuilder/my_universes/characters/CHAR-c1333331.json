@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "id": "CHAR-c1333331",
+    "world_id": "TDP-c092f993-2025",
+    "name": "李博士",
+    "birth_datetime": "1995-04-08T02:00:00",
+    "gender": "female",
+    "era": "modern",
+    "created_at": "2025-03-04T20:09:38.416826"
+  },
+  "attributes": {
+    "strength": 88,
+    "intelligence": 75,
+    "charisma": 64
+  },
+  "skills": [
+    "数据分析",
+    "战略规划",
+    "项目管理"
+  ]
+}

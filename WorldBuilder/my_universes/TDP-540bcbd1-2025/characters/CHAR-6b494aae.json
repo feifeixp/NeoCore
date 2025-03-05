@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "id": "CHAR-6b494aae",
+    "world_id": "TDP-540bcbd1-2025",
+    "name": "玄天真人",
+    "birth_datetime": "2001-12-11T20:28:01.400417",
+    "gender": "male",
+    "era": "ancient",
+    "created_at": "2025-03-04T20:28:01.400428"
+  },
+  "attributes": {
+    "strength": 92,
+    "intelligence": 90,
+    "charisma": 51
+  },
+  "skills": [
+    "道法自然",
+    "符箓之术",
+    "五行相生"
+  ]
+}

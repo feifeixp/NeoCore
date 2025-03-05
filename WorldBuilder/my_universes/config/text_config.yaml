@@ -1,0 +1,223 @@
+character:
+  name_generation:
+    ancient:
+      female_given:
+      - 霞
+      - 月
+      - 花
+      - 雪
+      - 玉
+      - 珠
+      - 凤
+      - 莲
+      - 春
+      - 秋
+      female_middle:
+      - 静
+      - 婷
+      - 美
+      - 丽
+      - 雅
+      - 芳
+      - 华
+      - 英
+      - 慧
+      - 贤
+      male_given:
+      - 云
+      - 风
+      - 山
+      - 河
+      - 海
+      - 天
+      - 地
+      - 星
+      - 月
+      - 日
+      male_middle:
+      - 子
+      - 文
+      - 武
+      - 德
+      - 明
+      - 志
+      - 仁
+      - 义
+      - 礼
+      - 智
+      surnames:
+      - 李
+      - 王
+      - 张
+      - 刘
+      - 陈
+      - 杨
+      - 赵
+      - 黄
+      - 周
+      - 吴
+      titles:
+      - 道长
+      - 真人
+      - 仙子
+      - 大师
+      - 前辈
+    future:
+      female_given:
+      - 指挥官
+      - 工程师
+      - 探索者
+      - 战士
+      - 科学家
+      - 领航员
+      - 守护者
+      - 研究员
+      male_given:
+      - 指挥官
+      - 工程师
+      - 探索者
+      - 战士
+      - 科学家
+      - 领航员
+      - 守护者
+      - 研究员
+      surnames:
+      - 电子
+      - 量子
+      - 星际
+      - 虚拟
+      - 智能
+      - 光速
+      - 时空
+      - 基因
+      - 纳米
+      - 脑波
+      titles:
+      - 指挥官
+      - 博士
+      - 教授
+      - 研究员
+      - 工程师
+    modern:
+      female_given:
+      - 娟
+      - 敏
+      - 静
+      - 秀
+      - 丽
+      - 艳
+      - 芳
+      - 萍
+      - 英
+      - 华
+      male_given:
+      - 伟
+      - 强
+      - 磊
+      - 超
+      - 勇
+      - 军
+      - 建
+      - 光
+      - 明
+      - 永
+      surnames:
+      - 张
+      - 王
+      - 李
+      - 赵
+      - 钱
+      - 孙
+      - 周
+      - 吴
+      - 郑
+      - 陈
+      titles:
+      - 先生
+      - 女士
+      - 老师
+      - 博士
+      - 教授
+  skill_pools:
+    ancient:
+    - 内功心法
+    - 剑术精通
+    - 丹道修炼
+    - 阵法布置
+    - 符箓制作
+    - 炼器技艺
+    - 轻功身法
+    - 医术精通
+    - 毒术研究
+    - 兵器锻造
+    future:
+    - 量子计算
+    - 基因工程
+    - 纳米技术
+    - 星际导航
+    - 虚拟现实
+    - 人工意识
+    - 时空操控
+    - 能源转换
+    - 生态修复
+    - 智能设计
+    modern:
+    - 计算机编程
+    - 数据分析
+    - 人工智能
+    - 网络安全
+    - 商业管理
+    - 市场营销
+    - 金融投资
+    - 项目管理
+    - 研发创新
+    - 团队领导
+world:
+  checksum_format: 校验码：{checksum} | 验证码：{validation}
+  entropy_panel:
+    header: 指标名称              当前值          阈值          状态
+    metrics:
+    - adjustment: '{sign}{value:.2f}%'
+      format: '{value:.2f}'
+      name: 灵气-石油转换率
+      status:
+        normal: 正常
+        warning: 警告
+      suffix: μm/s
+      threshold: '4.0'
+    - adjustment: '{sign}{value:.1f}pt'
+      format: '{value:.1f}%'
+      name: 现代化指数
+      status: 稳定
+      suffix: ''
+      threshold: 85%
+    - adjustment: '{sign}{value:.1f}%'
+      format: '{value:.1f}%'
+      name: 量子态稳定性
+      status: 波动
+      suffix: ''
+      threshold: 90%
+    title: 【熵增监控面板】
+  locations:
+    ancient:
+      descriptions:
+      - 灵气复苏，道法自然
+      - 修真门派林立，仙家洞府遍布
+      - 丹鼎阵法，符箓法器，无所不包
+      title: 【修真纪元】
+    future:
+      descriptions:
+      - 星际殖民，量子革命
+      - 虚拟现实，意识上传
+      - 基因工程，纳米技术，无所不能
+      title: 【未来纪元】
+    modern:
+      descriptions:
+      - 科技发展，信息爆炸
+      - 城市繁华，人流如织
+      - 互联网络，人工智能，方兴未艾
+      title: 【现代纪元】
+  protocol_statement: '本世界实例完全符合VUCCP v1.0和TDP v{version}协议标准。
+
+    校验码：{checksum} | 验证码：{validation} | 有效期至：{expiry_date}'
+  title_format: === 三纪元世界实例：{world_id} ===

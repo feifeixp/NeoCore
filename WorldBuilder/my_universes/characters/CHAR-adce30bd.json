@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "id": "CHAR-adce30bd",
+    "name": "周雅雪",
+    "gender": "female",
+    "era": "ancient",
+    "birth_datetime": "1910-12-19T01:44:00",
+    "physical": {
+      "height": 178,
+      "weight": 68,
+      "blood_type": "O",
+      "face_shape": "鹅蛋脸",
+      "eye_color": "蓝色"
+    },
+    "personality": {
+      "main_traits": [
+        "大胆",
+        "温和",
+        "固执"
+      ],
+      "minor_traits": [
+        "理想主义",
+        "浪漫主义"
+      ]
+    }
+  },
+  "attributes": {
+    "strength": 78,
+    "intelligence": 100,
+    "charisma": 100,
+    "agility": 63,
+    "perception": 79
+  },
+  "skills": {
+    "main": [
+      "丹道修炼",
+      "医术精通",
+      "炼器技艺"
+    ],
+    "special": [
+      {
+        "name": "剑术精通",
+        "level": 3,
+        "description": "精通各种剑法，能够应对各种战斗情况。"
+      }
+    ]
+  },
+  "background": {
+    "origin": "出生于武林世家，自小习武",
+    "details": "自幼展现出惊人的天赋，被视为修炼奇才",
+    "important_events": [
+      {
+        "year": 1994,
+        "age": 5,
+        "title": "参与门派大比",
+        "significance": 1
+      },
+      {
+        "year": 2003,
+        "age": 14,
+        "title": "参与门派大比",
+        "significance": 5
+      },
+      {
+        "year": 2006,
+        "age": 17,
+        "title": "突破修为境界",
+        "significance": 3
+      }
+    ]
+  }
+}

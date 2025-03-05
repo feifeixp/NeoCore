@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "id": "CHAR-59fd085b",
+    "world_id": "TDP-91710aed-2025",
+    "name": "王总监",
+    "birth_datetime": "1995-04-08T02:00:00",
+    "gender": "female",
+    "era": "modern",
+    "created_at": "2025-03-04T20:09:38.415903"
+  },
+  "attributes": {
+    "strength": 93,
+    "intelligence": 81,
+    "charisma": 81
+  },
+  "skills": [
+    "团队领导",
+    "资源整合",
+    "战略规划"
+  ]
+}

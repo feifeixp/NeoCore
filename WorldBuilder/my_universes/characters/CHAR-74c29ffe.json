@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "id": "CHAR-74c29ffe",
+    "world_id": "TDP-c092f993-2025",
+    "name": "玄云真人",
+    "birth_datetime": "2005-10-22T06:00:00",
+    "gender": "female",
+    "era": "ancient",
+    "created_at": "2025-03-04T20:09:38.417286"
+  },
+  "attributes": {
+    "strength": 89,
+    "intelligence": 95,
+    "charisma": 77
+  },
+  "skills": [
+    "丹道修炼",
+    "五行相生",
+    "天地灵气"
+  ]
+}

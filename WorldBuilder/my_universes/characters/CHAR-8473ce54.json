@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "id": "CHAR-8473ce54",
+    "world_id": "TDP-7c84f256-2025",
+    "name": "王教授",
+    "birth_datetime": "1995-04-08T02:00:00",
+    "gender": "female",
+    "era": "modern",
+    "created_at": "2025-03-04T20:09:38.415030"
+  },
+  "attributes": {
+    "strength": 62,
+    "intelligence": 65,
+    "charisma": 72
+  },
+  "skills": [
+    "资源整合",
+    "数据分析",
+    "战略规划"
+  ]
+}
